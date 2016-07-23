@@ -108,9 +108,10 @@ def printModules(items):
 
 def getModulesWithStatus():
     """Retrieves a list of all items in the modules folder"""
+    ignore_modules = ["sdmodulebase.py", "example.py"]
     modules = []
     for file in os.listdir(os.path.join(BASEDIR, "modules")):
-        if file.endswith(".py"):
+        if file.endswith(".py") and file not in ignore_modules:
             # Get status | True = on, False = off
             name = os.path.splitext(file)[0]
             freq = "off"
