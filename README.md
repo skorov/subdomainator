@@ -10,20 +10,20 @@ cd subdomainator
 python subdomainator_cli.py
 ```
 
-** Sign up with Pushbullet and get your API key. **
+**Sign up with Pushbullet and get your API key.**
 ![pushbullet](http://i.imgur.com/hRi6KM0.png)
 
-** Add the Pushbullet key in subdomainator. **
+**Add the Pushbullet key in subdomainator.**
 [![add key](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz.png)](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz)
 
 That's the bare minimum! You're ready to add domains.
 
 ## Usage
 
-** Enable some modules to search for subdomains for us. **
+**Enable some modules to search for subdomains for us.**
 [![enable mod](https://asciinema.org/a/e9uuvc7a6rgm6exjjno9yjl0p.png)](https://asciinema.org/a/e9uuvc7a6rgm6exjjno9yjl0p)
 
-** Add a domain to monitor. **
+**Add a domain to monitor.**
 [![add domain](https://asciinema.org/a/cws3ea4ch9r9lyl4pgqfog2yu.png)](https://asciinema.org/a/cws3ea4ch9r9lyl4pgqfog2yu)
 
 Note: You won't get notification the first run.
@@ -31,8 +31,17 @@ Note: You won't get notification the first run.
 That's it! Sit back and wait for the subdomains to roll in to your browser, phone or wherever you have Pushbullet.
 
 ## Modules
+The following modules currently come with subdomainator. I plan to add more later. :-)
 
-TODO: Write about modules
+### sublist3r
+Such an awesome tool, that I just had to hook into it. This modules runs the non-bruteforce parts of the tool.
+You will need to edit the path inside the modules/sublist3r.py file.
+![sublist3r edit](http://i.imgur.com/W3DFz0P.png)
+
+### Virus Total
+Contains decent subdomain data.
+You will need to add your own API key to the modules/virustotal.py file.
+![virustotal](http://i.imgur.com/QxvBo5X.png)
 
 ## History
 
