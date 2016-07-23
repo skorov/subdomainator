@@ -16,7 +16,7 @@ import config
 import dbconnector as db
 import pushbullet as p
 
-APIKEY = config.VIRUSTOTAL_API
+APIKEY = config.VIRUSTOTAL_APIKEY
 BASEDIR = os.path.join(os.path.dirname(__file__), '..')
 DATABASE = os.path.join(BASEDIR, config.DATABASE)
 db.connect(DATABASE)

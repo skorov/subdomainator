@@ -1,1 +1,3 @@
 DATABASE = 'subdomainator.db'
+VIRUSTOTAL_APIKEY = ''
+SUBLIST3R_PATH = ''

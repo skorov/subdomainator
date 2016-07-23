@@ -18,7 +18,7 @@ import pushbullet as p
 BASEDIR = os.path.join(os.path.dirname(__file__), '..')
 DATABASE = os.path.join(BASEDIR, config.DATABASE)
 db.connect(DATABASE)
-SUBLIST3R_PATH = '/opt/sublist3r-git/sublist3r.py'
+SUBLIST3R_PATH = config.SUBLIST3R_PATH
 TMP_PATH = '/tmp'
 
 
