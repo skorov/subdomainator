@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # CLI for commands within Subdomainator
 #
-# Author: skorov (Adapted from Empire. Thanks HarmJ0y!)
+# Author: skorov (Adapted from Empire. Thanks Harmj0y!)
 
 import sys
 import os
@@ -36,6 +36,9 @@ def title():
     |__________/     [Twitter]: @skorov8 | [Version]: 1.0
 
     """)
+
+
+def stats():
     domain_count = len(db.getDomains())
     pushkey_count = len(db.getPushkeys())
     modules = getModulesWithStatus()
@@ -185,6 +188,7 @@ class MainMenu(Cmd):
                     self.do_modules("")
                 else:  # main
                     title()
+                    stats()
                     Cmd.cmdloop(self)
 
             # handle those pesky ctrl+c's

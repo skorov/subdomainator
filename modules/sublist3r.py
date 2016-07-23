@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Module to get subdomains from Virus Total
+# Module to run sublist3r and it's functionality
 # Give a domain name argument the first time to suppress notifications
 #
 # Author: skorov
