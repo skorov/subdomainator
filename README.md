@@ -7,6 +7,7 @@ Stay on top of new subdomains! Bug bounty hunters can use this tool to receive P
 ```
 git clone https://github.com/skorov/subdomainator.git
 cd subdomainator
+pip install -r requirements.txt
 python subdomainator_cli.py
 ```
 
