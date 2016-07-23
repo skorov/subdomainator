@@ -56,4 +56,4 @@ Contains decent subdomain data.
 ## Get in touch
 
 Does my tool suck? Let me know what you think!
-Twitter: @skorov8
+Twitter: [@skorov8](https://twitter.com/skorov8)
