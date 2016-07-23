@@ -11,7 +11,7 @@ python subdomainator_cli.py
 ```
 
 Sign up with Pushbullet and get your API key.
-![pushbullet_api_key](http://imgur.com/a/4P2yt)
+![pushbullet](http://i.imgur.com/hRi6KM0.png)
 
 Add the Pushbullet key in subdomainator...
 [![add key](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz.png)](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz)
