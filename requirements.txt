@@ -1,2 +1,3 @@
 tldextract
 python-crontab
+requests

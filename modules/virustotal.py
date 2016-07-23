@@ -36,6 +36,7 @@ def getSubdomains(domain, apikey):
         return subslist
     except Exception as e:
         print(str(e))
+        return []
 
 
 def getSubsFromDB(domain):
