@@ -16,7 +16,7 @@ python subdomainator_cli.py
 **Add the Pushbullet key in subdomainator.**
 [![add key](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz.png)](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz)
 
-**Edit config.py file.**
+**Edit config.py file.**  
 ![config](http://i.imgur.com/doOjbYK.png)
 
 That's the bare minimum! You're ready to add domains.
