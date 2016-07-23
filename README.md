@@ -17,7 +17,7 @@ python subdomainator_cli.py
 [![add key](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz.png)](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz)
 
 **Edit config.py file**
-[config](http://i.imgur.com/doOjbYK.png)
+![config](http://i.imgur.com/doOjbYK.png)
 
 That's the bare minimum! You're ready to add domains.
 
