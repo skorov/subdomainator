@@ -7,6 +7,7 @@ Stay on top of new subdomains! Bug bounty hunters can use this tool to receive P
 ```
 git clone https://github.com/skorov/subdomainator.git
 cd subdomainator
+pip install -r requirements.txt
 python subdomainator_cli.py
 ```
 
@@ -15,6 +16,9 @@ python subdomainator_cli.py
 
 **Add the Pushbullet key in subdomainator.**
 [![add key](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz.png)](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz)
+
+**Edit config.py file.**  
+![config](http://i.imgur.com/doOjbYK.png)
 
 That's the bare minimum! You're ready to add domains.
 
@@ -35,13 +39,10 @@ The following modules currently come with subdomainator. I plan to add more late
 
 ### sublist3r
 Such an awesome tool, that I just had to hook into it. This modules runs the non-bruteforce parts of the tool.
-You will need to edit the path inside the modules/sublist3r.py file.
-![sublist3r edit](http://i.imgur.com/W3DFz0P.png)
+You will need to get sublist3r working yourself before you can use this module.
 
 ### Virus Total
 Contains decent subdomain data.
-You will need to add your own API key to the modules/virustotal.py file.
-![virustotal](http://i.imgur.com/QxvBo5X.png)
 
 ## History
 
@@ -56,4 +57,4 @@ You will need to add your own API key to the modules/virustotal.py file.
 ## Get in touch
 
 Does my tool suck? Let me know what you think!
-Twitter: @skorov8
+Twitter: [@skorov8](https://twitter.com/skorov8)
