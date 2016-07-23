@@ -15,7 +15,7 @@ python subdomainator_cli.py
 ![pushbullet](http://i.imgur.com/hRi6KM0.png)
 
 **Add the Pushbullet key in subdomainator.**
-[![add key](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz.png)](https://asciinema.org/a/7y595ruxx2rsgyvtcoalfgrhz)
+[![add pushkey](https://asciinema.org/a/49rj9daflols1obhfbvoeph11.png)](https://asciinema.org/a/49rj9daflols1obhfbvoeph11)
 
 **Edit config.py file.**  
 ![config](http://i.imgur.com/doOjbYK.png)
@@ -25,10 +25,10 @@ That's the bare minimum! You're ready to add domains.
 ## Usage
 
 **Enable some modules to search for subdomains for us.**
-[![enable mod](https://asciinema.org/a/e9uuvc7a6rgm6exjjno9yjl0p.png)](https://asciinema.org/a/e9uuvc7a6rgm6exjjno9yjl0p)
+[![enable mod](https://asciinema.org/a/bzn3j2up4mtmqfdm3fgxmnqsl.png)](https://asciinema.org/a/bzn3j2up4mtmqfdm3fgxmnqsl)
 
 **Add a domain to monitor.**
-[![add domain](https://asciinema.org/a/cws3ea4ch9r9lyl4pgqfog2yu.png)](https://asciinema.org/a/cws3ea4ch9r9lyl4pgqfog2yu)
+[![add domain](https://asciinema.org/a/3fr5mt6ahbha2r2bko6r2wuki.png)](https://asciinema.org/a/3fr5mt6ahbha2r2bko6r2wuki)
 
 Note: You won't get notification the first run.
 
