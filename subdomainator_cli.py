@@ -143,7 +143,6 @@ def doFirstRun(domain):
             script = os.path.join(BASEDIR, "modules", mod[0] + ".py")
             subprocess.Popen(["python", script, domain], stdout=FNULL, stderr=FNULL)
 
-        FNULL.close()
     except Exception as e:
         print(str(e))
 
