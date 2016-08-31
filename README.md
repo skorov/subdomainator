@@ -44,6 +44,13 @@ You will need to get sublist3r working yourself before you can use this module.
 ### Virus Total
 Contains decent subdomain data.
 
+### Custom Modules
+No module for what you need? No worries! You can write your own. Subdomainator was written with this specifically in mind. The `modules/sdmodulebase.py` contains almost all the code you need for your module, so no need to rewrite everything. You simply have to create a new module that inherrits from `sdmodulebase.ModuleBase`.
+
+Use `modules/example.py` as a template for your custom module. You will have to override the `getSubdomains(self, domain)` method and maybe the `run(self)` method. Check out the example for more info.
+
+Module files are run as cron jobs so make sure they can be run as standalone.
+
 ## History
 
 **23/07/2016:**
