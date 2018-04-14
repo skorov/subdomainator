@@ -2,6 +2,8 @@
 
 Stay on top of new subdomains! Bug bounty hunters can use this tool to receive Pushbullet notifications each time there is a new target subdomain.
 
+**NO LONGER SUPPORTED. There's simply better tools out there! Sorry!!**
+
 ## Installation
 
 ```
